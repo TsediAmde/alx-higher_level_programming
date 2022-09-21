@@ -6,11 +6,11 @@ How to use 3-say_my_name.py
 >>> say_my_name = __import__('3-say_my_name').say_my_name
 
 2) say my name, test
->>> say_my_name("Tsedi", "Tsedenia")
+>>> say_my_name("Tsedenia", "Amde")
 My name is Tsedenia Amde
 
 say my name, test
->>> say_my_name("Tsedi", "Tsedenia")
+>>> say_my_name("Tsedenia", "Amde")
 My name is Tsedenia Amde
 
 
@@ -24,7 +24,7 @@ Traceback (most recent call last):
 TypeError: first_name must be a string
 
 5) Error with integers for my lastname
->>> say_my_name("Amde", [1, 2, 3,])
+>>> say_my_name("Yimam", [1, 2, 3,])
 Traceback (most recent call last):
 TypeError: last_name must be a string
 
