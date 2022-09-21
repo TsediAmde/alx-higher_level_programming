@@ -1,20 +1,18 @@
 #!/usr/bin/python3
 """
-This is the say_my_name module.
-This module supplies one function, say_my_name().
+Say My Name - a function that says your name.
 """
 
 
 def say_my_name(first_name, last_name=""):
     """
-    Print My name is <first name> <last name>.
-    Args:
-        first_name (str): the first name.
-        last_name (str): the last name.
+    Says your name.
+    first_name and last_name must be strings otherwise, will raise a TypeError
     """
+    # first_name must be an integer
     if type(first_name) is not str:
         raise TypeError("first_name must be a string")
+    # last_name must be an integer
     if type(last_name) is not str:
         raise TypeError("last_name must be a string")
-
     print("My name is {:s} {:s}".format(first_name, last_name))
